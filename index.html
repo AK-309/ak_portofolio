@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AK portfolio</title>
+    <link id = "theme" rel="stylesheet" type="text/css" href = "Data\stylesheet.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='Data\javafile.js'></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="body">
+    <header>
+        <a href="#" class="logo">AK</a>
+        <nav class="navigation">
+            <a href="#about me">About me </a>
+            <a href="#contact">Contact</a>
+            <button onclick="toggleTheme()" class ="themebtn">theme switch</button>     
+            
+            
+        </nav>
+    </header>
+    
+    <section class ="main" id = "main_S">
+        <div>
+          <h2>hello i am Ahmed<br><span>Programmer</span></h2>
+          <a href="#slider_con" class="main-btn">My certificates</a>
+        </div> 
+    </section>
+    <section class="cards" id="about me">
+        <h2 class="title">About me </h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-dumbbell"></i>
+                </div>
+                <div class="info">
+                    <h3>Playing Sports</h3>
+                    <p>I love sport this is my way to use my free time and  meet with friends in gym, to talk, to laugh</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Programing</h3>
+                    <p> I love coding because it really excites me, it is fun to do. It really excites me whenever I come across a problem, I get curious about solving it.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <div class="info">
+                    <h3>Gaming </h3>
+                    <p>I like playing games because it helps me to know new things like Minecraft and Roblox </p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="slider_con">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id = "slide-1" src="Data/c1.jpg"/>
+                    <img id = "slide-2" src="Data/c2.jpg"/>
+                    <img id = "slide-3" src="Data/c3.jpg"/>
+                    <img id = "slide-4" src="Data/c4.jpg"/>
+                    <img id = "slide-5" src="Data/c5.jpg"/>
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                    <a href="#slide-5"></a>
+                </div>
+            </div>
+        </div>    
+    </section> 
+        
+        <section class="cards contact" id="contact">
+            <h2 class="title">Let's work together</h2>
+            <div class="content">
+               <a href=tel:201006726270 class ="ttt">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info">
+                            <h3>Phone</h3>
+                            <p>+201006726270</p>
+                        </div>
+                    </div>
+                </a>
+                <a href = mailto:ahmedsobaih183mar@gmail.com class="ttt">
+                    <div class="card" , ahref =mailto:ahmedsobaih183mar@gmail.com >
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <h3>Email</h3>
+                            <p>ahmedsobaih183mar@gmail.com</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+        </section>
+ 
+</body>
+</html>
